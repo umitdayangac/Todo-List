@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="wrap">
+    <header class="container">
+        <h1 class="header-title">Todo List</h1>
+    </header>
+
+    <main class="container">
+        <section class="form-container">
+            <form id="form">
+                <input type="text" class="form-item input-form" placeholder="Add Todo">
+                <button type="submit" class="form-item form-btn">
+                    <i class="far fa-plus-square"></i>
+                </button>
+            </form>
+        </section>
+        <section class="task-area-list">
+            <ul class="task-list">
+                <!--
+                <li class="task-todo">
+                    <div class="task-title">
+                        Market
+                    </div>
+                    <button type="button" class="btn btn-task-check">
+                        <i class="far fa-check-square"></i>
+                    </button>
+                    <button type="button" class="btn btn-task-delete">
+                        <i class="far fa-trash-alt"></i>
+                    </button>
+                </li>
+                -->
+
+
+            </ul>
+        </section>
+    </main>
+</div>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="script.js"></script>
+
+
+</body>
+</html>
